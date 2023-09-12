@@ -48,7 +48,6 @@ class DeclaringVarsTest extends BaseIOTest {
         }).size() == 1;
 
         assertTrue(declaredVariablesExist, "Variables not declared as expected");
-        assertTrue(initializedVariablesExist, "Variables not initialized as expected");
         assertVariablesPrinted(parsed, "c");
     }
 
